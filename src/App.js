@@ -7,10 +7,12 @@ import Projects from './pages/Projects';
 import Sustainability from './pages/Sustainability';
 import Contact from './pages/Contact';
 import LegalPage from './pages/LegalPage';
+import ScrollToTop from './componentes/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<About />} />
