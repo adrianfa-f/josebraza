@@ -23,7 +23,7 @@ export default function Header() {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div className="flex items-center gap-3">
-                        <FaMountain className="text-3xl text-amber-600" />
+                        <FaMountain className="text-3xl hidden md:block text-amber-600" />
                         <span className="text-2xl font-bold tracking-tight text-gray-900">Jose Braza e hijos S.A</span>
                     </div>
 
