@@ -31,7 +31,7 @@ export default function Footer() {
                             <li>
                                 <a href="https://wa.me/34956237910" target="_blank" rel="noopener noreferrer">
                                     <FaPhone/>
-                                    <span>+34 956237910</span>
+                                    +34 956237910
                                 </a>
                             </li>
                             <li>
