@@ -29,7 +29,7 @@ export default function Footer() {
                         <h4 className="text-lg font-semibold text-white mb-4">Contacto Directo</h4>
                         <ul className="space-y-3">
                             <li>
-                                <a href="https://wa.me/34956237910" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/34956237910" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-amber-500">
                                     <FaPhone/>
                                     +34 956237910
                                 </a>
